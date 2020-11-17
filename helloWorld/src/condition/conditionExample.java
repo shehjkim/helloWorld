@@ -7,13 +7,30 @@ public class conditionExample {
 		String grade = "";
 
 		if (score >= 90) {
-			grade = "A";
+			if (score >= 95) {
+				grade = "A+";
+			} else {
+				grade = "A";
+			}
 		} else if (score >= 80) {
-			grade = "B";
+			if (score >= 85) {
+				grade = "B+";
+			} else {
+				grade = "B";
+			}
 		} else if (score >= 70) {
-			grade = "C";
+			if (score >= 75) {
+				grade = "C+";
+			} else {
+				grade = "C";
+			}
 		} else if (score >= 60) {
-			grade = "D";
+			if (score >= 65) {
+				grade = "D+";
+			} else {
+				grade = "D";
+			}
+
 		} else {
 			grade = "F";
 		}
