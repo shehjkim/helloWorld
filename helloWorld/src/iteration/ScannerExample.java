@@ -7,7 +7,7 @@ public class ScannerExample {
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
 		boolean run = true;
-		int balance =0;
+		int balance =2;
 		Scanner scanner = new Scanner(System.in);
 	
 		while(run) {
